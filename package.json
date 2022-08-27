@@ -1,0 +1,27 @@
+{
+  "name": "graphql-practice",
+  "version": "1.0.0",
+  "description": "GraphQL pratcie project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwalkulkarni/graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajwalkulkarni/graphql/issues"
+  },
+  "homepage": "https://github.com/prajwalkulkarni/graphql#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
