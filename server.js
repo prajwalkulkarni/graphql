@@ -12,7 +12,6 @@ GraphQLList} = require('graphql')
 const app = express();
 
 
-
 const AuthorType = new GraphQLObjectType({
 name: 'Author',
 description: 'This represents an author of a book',
