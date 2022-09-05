@@ -120,3 +120,7 @@ app.use('/graphql', expressGraphQL({
 app.listen(3000, () => {
     console.log('Server started on port 3000');
 } );
+
+
+// A graphQL schema is a collection of queries and mutations. These collections further contain fields defined by a type.
+// The type can be primary or user defined. If a type contains non primary property, a resolve function should be defined to state what is returned when the property is called.
